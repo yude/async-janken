@@ -1,9 +1,11 @@
 "use client";
 import { useState, useEffect } from "react";
+import { Match } from "@/app/types/match";
 
 export default function Home() {
-  const [isSettled, setIsSettled] = useState(false);
   const [hand, setHand] = useState(0);
+
+  const [matches, setMatches] = useState<Match[]>();
 
   return (
     <main className="text-center max-w-lg mx-auto mt-10">

@@ -10,7 +10,9 @@
   },
   "dependencies": {
     "@cloudflare/next-on-pages": "^1.6.1",
-    "@cloudflare/workers-types": "^4.20230922.0",
+    "@types/uuid": "^9.0.4",
+    "firebase": "^10.4.0",
+    "firebase-admin": "^11.10.1",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",
