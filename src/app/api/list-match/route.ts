@@ -8,6 +8,6 @@ const { MY_KV_STORE } = process.env as unknown as {
 };
 
 export async function GET(request: Request) {
-  
-  return NextResponse.json(id);
+    const text = await MY_KV_STORE.get("gyu", "text")
+    return NextResponse.json(text);
 }
