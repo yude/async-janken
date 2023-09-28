@@ -9,9 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@cloudflare/next-on-pages": "^1.6.1",
+    "@cloudflare/workers-types": "^4.20230922.0",
+    "next": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "next": "latest"
+    "uuid": "^9.0.1"
   },
   "devDependencies": {
     "typescript": "latest",
